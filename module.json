@@ -1,0 +1,76 @@
+{
+    "id": "flyfreeordie",
+    "title": "Fly Free or Die content",
+    "description": "Content for Fly Free or Die",
+    "authors": [
+      {
+      "name": "bob"
+      }
+      ],
+    "version": "0.10",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "12",
+      "maximum":12
+    },
+    "esmodules": [
+      "galacticTrade.js",
+      "elevator.js"
+  ],
+    "packs": [
+      {
+        "label": "Fly Free or Die",
+        "type": "Adventure",
+        "name": "fly-free-or-die",
+        "path": "packs/fly-free-or-die",
+        "system": "sfrpg",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "flags": {},
+        "package": "world",
+        "id": "world.fly-free-or-die",
+        "packageType": "world",
+        "packageName": "sr1",
+        "index": [],
+        "folders": []
+      }
+    ],
+
+    "relationships": {
+        "systems": [{
+          "id": "sfrpg",
+          "type": "system",
+          "manifest": "",
+          "compatibility": {
+            "verified": "0.0.0"
+          }
+        }]
+      },
+"url": "https://github.com/nzlbob/flyfreeordie",
+  "manifest": "https://raw.githubusercontent.com/nzlbob/flyfreeordie/refs/heads/main/module.json",
+  "download": "https://github.com/nzlbob/flyfreeordie/archive/refs/heads/main.zip",
+  "media": [
+    {
+      "type": "thumbnail",
+      "url": "modules/flyfreeordie/images/flyfreeordie.webp",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "setup",
+      "url": "modules/flyfreeordie/images/flyfreeordie.webp",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/nzlbob/flyfreeordie/main/images/flyfreeordie.webp",
+      "caption": "Fly Free or Die",
+      "loop": false,
+      "flags": {}
+    }
+  ]
+
+  }
