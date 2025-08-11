@@ -7,11 +7,11 @@
       "name": "bob"
     }
   ],
-  "version": "0.15",
+  "version": "0.20",
   "compatibility": {
     "minimum": "10",
-    "verified": "12",
-    "maximum": 12
+    "verified": "13",
+    "maximum": "13"
   },
   "esmodules": [
     "galacticTrade.js",
